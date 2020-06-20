@@ -10,9 +10,10 @@ and `makes them interchangeable`.
     * Forces introducing new sub-Classes with new requirements (for example introducing different behaviors).
 * Problem with `Interface`
     * 
-    
-![](../resource/Strategy_Design_Pattern_UML.jpg)
-
+     
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anis016/Design-Patterns/master/resource/Strategy_Design_Pattern_UML.jpg?raw=true"/>
+</p>
 
 # Resource
 * [The strategy pattern explained using java](https://www.freecodecamp.org/news/the-strategy-pattern-explained-using-java-bc30542204e0)
