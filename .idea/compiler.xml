@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Design-Patterns" target="1.5" />
-      <module name="strategy-dp" target="1.5" />
+      <module name="Design-Patterns" target="1.8" />
+      <module name="strategy-dp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
