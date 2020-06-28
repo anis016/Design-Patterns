@@ -1,6 +1,6 @@
 # Strategy Design Patterns
 
-The Strategy Design Patterns defines a `family of algorithms` `encapsulates each one` 
+The `Strategy Design Patterns` defines a `family of algorithms` `encapsulates each one` 
 and `makes them interchangeable`.
 
 **Note: Identify the parts of your program that vary and separate them from what stays the same.**
@@ -18,7 +18,7 @@ and `makes them interchangeable`.
 <p align="center">
   <img src="https://raw.githubusercontent.com/anis016/Design-Patterns/master/resource/Strategy_Design_Pattern_UML.jpg?raw=true"/>
   <br>
-    <em>UML class. Source: <a href="https://en.wikipedia.org/wiki/Strategy_pattern">Wikipedia: Strategy pattern</a></em>
+    <em>UML class. Image Source: <a href="https://en.wikipedia.org/wiki/Strategy_pattern">Wikipedia: Strategy pattern</a></em>
 </p>
 
 In the above diagram, `Context` class `has-a` relationship with `Strategy` interface rather than `is-a` (inheritance) relationship.

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Properties>
+        <Property name="LOG_TIME">%d{yyyy-MM-dd HH:mm:ss}</Property>
+        <Property name="LOG_MSG">%msg%n</Property>
+        <Property name="LOG_LEVEL_PATTERN">-%5p</Property>
+        <Property name="LOG_PATTERN">
+            %style{${LOG_TIME}}{dim} %highlight{${LOG_LEVEL_PATTERN}} %style{[%t]}{dim} %style{%C.%M}{magenta}:%style{%L}{cyan} - ${LOG_MSG}
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- set the package for the root logger -->
+        <Logger name="com.patterns" level="ALL" additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <!-- default logger level -->
+        <Root level="ALL" >
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

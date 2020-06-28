@@ -11,6 +11,7 @@
 
     <modules>
         <module>strategy-dp</module>
+        <module>observer-dp</module>
     </modules>
 
     <properties>
@@ -22,6 +23,14 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- for logging -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- for testing -->
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
@@ -39,6 +48,16 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- for logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+
         <!-- for testing -->
         <dependency>
             <groupId>org.mockito</groupId>
