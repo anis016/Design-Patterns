@@ -12,6 +12,7 @@
     <modules>
         <module>strategy-dp</module>
         <module>observer-dp</module>
+        <module>builder-dp</module>
     </modules>
 
     <properties>
