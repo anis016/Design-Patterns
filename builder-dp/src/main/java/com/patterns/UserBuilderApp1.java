@@ -1,7 +1,7 @@
 package com.patterns;
 
-import com.patterns.builder1.Address;
-import com.patterns.builder1.User;
+import com.patterns.method1.Address;
+import com.patterns.method1.User;
 
 public class UserBuilderApp1 {
 

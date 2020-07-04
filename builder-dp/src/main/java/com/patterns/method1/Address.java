@@ -1,4 +1,4 @@
-package com.patterns.builder1;
+package com.patterns.method1;
 
 public class Address {
 

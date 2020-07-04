@@ -1,8 +1,8 @@
-package com.patterns.builder1;
+package com.patterns.method1;
 
 public class User {
 
-    private final String fullName;  // fullName is mandatory
+    private final String fullName;
     private final int age;
     private final String phone;
     private final Address address;
